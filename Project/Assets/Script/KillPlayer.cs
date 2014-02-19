@@ -16,6 +16,6 @@ public class KillPlayer : MonoBehaviour {
 	private void OnTriggerEnter(Collider other) {
 		print ("Collision!");
 		Destroy(other.gameObject);
-		Destroy (this);
+		Destroy(gameObject);
 	}
 }
